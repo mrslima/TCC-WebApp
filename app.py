@@ -3,11 +3,12 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from pathlib import Path
 
-ROOT = Path('/content/road_damage_framework')
-REPORTS_DIR = ROOT / 'reports'
-TABLES_DIR = REPORTS_DIR / 'tables'
-FIGURES_DIR = REPORTS_DIR / 'figures'
+ROOT = Path(__file__).resolve().parent
+REPORTS_DIR = ROOT / "reports"
+TABLES_DIR = REPORTS_DIR / "tables"
+FIGURES_DIR = REPORTS_DIR / "figures"
 
 st.set_page_config(page_title='Road Damage Detection — Dashboard', page_icon='🛣️', layout='wide')
 st.title('🛣️ Road Damage Detection — Dashboard Comparativo')
