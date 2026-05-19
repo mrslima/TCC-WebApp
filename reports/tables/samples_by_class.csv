@@ -1,0 +1,13 @@
+split,class,num_images,num_boxes
+train,D00,2115,4159
+train,D10,1340,2054
+train,D20,1507,1923
+train,D40,1080,1978
+val,D00,477,957
+val,D10,291,473
+val,D20,297,375
+val,D40,193,365
+test,D00,481,901
+test,D10,304,498
+test,D20,313,397
+test,D40,218,363

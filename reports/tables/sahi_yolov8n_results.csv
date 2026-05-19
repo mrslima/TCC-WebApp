@@ -1,0 +1,2 @@
+model,imgsz,preprocessing,slice_size,overlap,predictions_json,map50_95,map50,precision,recall,f1
+yolov8n,320,sahi_tiling,320,0.2,/content/road_damage_framework/predictions/yolov8n_320_sahi_test_preds.json,0.05969810198286296,0.17477016449410274,0.0509642558393037,0.11963077548174585,0.07147797171997378
